@@ -1,16 +1,22 @@
 .form-control{
     margin-left: 8em;
+  
 
 }
 .fa-brands{
     padding-right: 2em;
     padding-top: 1em;
+  
 }
 .navigationBar{
   
   position: fixed;
   width: 100%;
+  
  
+}
+.nav-link {
+  color: grey;
 }
 
 
@@ -20,21 +26,31 @@
 .flex-column{
     margin-top: 2em;
 }
+
+.dropdown-menu{
+  
+  
+ margin-top: 2em;
+  left: 130px;
+}
+
+
 .sidebar{
-  margin-top: 5em;
+  margin-top: 6em;
 height: 100%;
 position: fixed;
 box-shadow: 30px;
 
+
 }
 
 .sidebar a {
-  border: 2px solid rgb(254, 228, 228);
- margin: 2px;
+  border: 2px solid transparent;
+ 
  border-radius: 4px;
 }
 .sidebar a:hover{
-  background-color: aqua;
+  background-color: rgb(194, 246, 246);
   
 }
 .cards{
